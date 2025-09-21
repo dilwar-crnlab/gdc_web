@@ -1,0 +1,13 @@
+[20-Sep-2025 16:45:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in C:\xampp\htdocs\gdc\notices.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gdc\notices.php on line 58
+[20-Sep-2025 16:46:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in C:\xampp\htdocs\gdc\notices.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gdc\notices.php on line 58
+[21-Sep-2025 10:09:02 Europe/Berlin] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gdc\setup_faculty.php on line 47
+[21-Sep-2025 10:09:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gdc\setup_faculty.php:47
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gdc\setup_faculty.php on line 47

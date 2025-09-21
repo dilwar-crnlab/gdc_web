@@ -1,0 +1,137 @@
+[20-Sep-2025 16:12:23 Europe/Berlin] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\gdc\admin\index.php on line 5
+[20-Sep-2025 16:12:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\gdc\admin\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gdc\admin\index.php on line 5
+[20-Sep-2025 16:13:55 Europe/Berlin] 2025-09-20 16:13:55 - Upload error - Exception: Failed to save notification: Duplicate entry '' for key 'PRIMARY' - File: C:\xampp\htdocs\gdc\admin\handlers.php:175
+[20-Sep-2025 16:14:45 Europe/Berlin] 2025-09-20 16:14:45 - Upload error - Exception: Failed to get notification ID - File: C:\xampp\htdocs\gdc\admin\handlers.php:181
+[20-Sep-2025 16:18:58 Europe/Berlin] Inserting notification: title=test2, priority=medium, category=general, created_by=admin
+[20-Sep-2025 16:18:58 Europe/Berlin] 2025-09-20 16:18:58 - Upload error - Exception: Failed to save notification: Duplicate entry '' for key 'PRIMARY' | MySQL Error: Duplicate entry '' for key 'PRIMARY' - File: C:\xampp\htdocs\gdc\admin\handlers.php:191
+[20-Sep-2025 16:19:37 Europe/Berlin] Inserting notification: title=test, priority=medium, category=general, created_by=admin
+[20-Sep-2025 16:19:37 Europe/Berlin] 2025-09-20 16:19:37 - Upload error - Exception: Failed to get notification ID. Insert ID: 0 | Last Error:  - File: C:\xampp\htdocs\gdc\admin\handlers.php:202
+[20-Sep-2025 16:29:11 Europe/Berlin] Inserting notification: title=test, priority=medium, category=general, created_by=admin
+[20-Sep-2025 16:29:11 Europe/Berlin] Successfully inserted notification with ID: 2
+[20-Sep-2025 16:53:08 Europe/Berlin] Inserting notification: title=test2, priority=medium, category=general, created_by=admin
+[20-Sep-2025 16:53:08 Europe/Berlin] Successfully inserted notification with ID: 3
+[20-Sep-2025 17:01:54 Europe/Berlin] Inserting notification: title=test, priority=medium, category=general, created_by=admin
+[20-Sep-2025 17:01:54 Europe/Berlin] Successfully inserted notification with ID: 4
+[21-Sep-2025 10:03:30 Europe/Berlin] Data validation - Title length: 4, Title: 'test'
+[21-Sep-2025 10:03:30 Europe/Berlin] Description length: 0
+[21-Sep-2025 10:03:30 Europe/Berlin] Priority: 'medium', Category: 'general'
+[21-Sep-2025 10:03:30 Europe/Berlin] Valid until: ''
+[21-Sep-2025 10:03:30 Europe/Berlin] Upload path created: notifications/2025/09/21/
+[21-Sep-2025 10:03:30 Europe/Berlin] Directory exists: YES
+[21-Sep-2025 10:03:30 Europe/Berlin] Directory writable: YES
+[21-Sep-2025 10:03:31 Europe/Berlin] FILES array: Array
+(
+    [files] => Array
+        (
+            [name] => Array
+                (
+                    [0] => aadhar_pan_linked_status.pdf
+                )
+
+            [type] => Array
+                (
+                    [0] => application/pdf
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php3847.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 754585
+                )
+
+        )
+
+)
+
+[21-Sep-2025 10:03:31 Europe/Berlin] Processing 1 files for upload
+[21-Sep-2025 10:03:31 Europe/Berlin] Processing file 0: Array
+(
+    [name] => aadhar_pan_linked_status.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\php3847.tmp
+    [error] => 0
+    [size] => 754585
+)
+
+[21-Sep-2025 10:03:31 Europe/Berlin] Original filename: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] Safe filename: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] Full file path: notifications/2025/09/21/aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] Temp file path: C:\xampp\tmp\php3847.tmp
+[21-Sep-2025 10:03:31 Europe/Berlin] Final file path: notifications/2025/09/21/aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] Final filename: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] File successfully moved to: notifications/2025/09/21/aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:03:31 Europe/Berlin] File exists after move: YES
+[21-Sep-2025 10:03:31 Europe/Berlin] File size after move: 754585 bytes
+[21-Sep-2025 10:03:31 Europe/Berlin] File record inserted successfully for: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] Data validation - Title length: 4, Title: 'test'
+[21-Sep-2025 10:16:01 Europe/Berlin] Description length: 0
+[21-Sep-2025 10:16:01 Europe/Berlin] Priority: 'urgent', Category: 'admission'
+[21-Sep-2025 10:16:01 Europe/Berlin] Valid until: ''
+[21-Sep-2025 10:16:01 Europe/Berlin] Upload path created: notifications/2025/09/21/
+[21-Sep-2025 10:16:01 Europe/Berlin] Directory exists: YES
+[21-Sep-2025 10:16:01 Europe/Berlin] Directory writable: YES
+[21-Sep-2025 10:16:01 Europe/Berlin] FILES array: Array
+(
+    [files] => Array
+        (
+            [name] => Array
+                (
+                    [0] => aadhar_pan_linked_status.pdf
+                )
+
+            [type] => Array
+                (
+                    [0] => application/pdf
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpAD73.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 754585
+                )
+
+        )
+
+)
+
+[21-Sep-2025 10:16:01 Europe/Berlin] Processing 1 files for upload
+[21-Sep-2025 10:16:01 Europe/Berlin] Processing file 0: Array
+(
+    [name] => aadhar_pan_linked_status.pdf
+    [type] => application/pdf
+    [tmp_name] => C:\xampp\tmp\phpAD73.tmp
+    [error] => 0
+    [size] => 754585
+)
+
+[21-Sep-2025 10:16:01 Europe/Berlin] Original filename: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] Safe filename: aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] Full file path: notifications/2025/09/21/aadhar_pan_linked_status.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] Temp file path: C:\xampp\tmp\phpAD73.tmp
+[21-Sep-2025 10:16:01 Europe/Berlin] Final file path: notifications/2025/09/21/aadhar_pan_linked_status_1.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] Final filename: aadhar_pan_linked_status_1.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] File successfully moved to: notifications/2025/09/21/aadhar_pan_linked_status_1.pdf
+[21-Sep-2025 10:16:01 Europe/Berlin] File exists after move: YES
+[21-Sep-2025 10:16:01 Europe/Berlin] File size after move: 754585 bytes
+[21-Sep-2025 10:16:01 Europe/Berlin] File record inserted successfully for: aadhar_pan_linked_status.pdf
